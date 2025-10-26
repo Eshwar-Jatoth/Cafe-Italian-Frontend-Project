@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+#root{
+  height: 100vh;
+  width: 100vw;
+  
+}
+::-webkit-scrollbar{
+  display: none;
+  scroll-behavior: smooth;
+}
+
+/* Apply only at exactly 768px */
+@media (max-width: 768px) {
+  /* Hide desktop nav links */
+  .desktop-nav {
+    display: none !important;
+  }
+
+  /* Show mobile menu toggle button */
+  .mobile-toggle {
+    display: block !important;
+  }
+
+  /* Adjust logo size if needed */
+  .logo-center img {
+    height: 50px; /* smaller on mobile */
+  }
+
+  /* Hide desktop Book Table button */
+  .desktop-book-btn {
+    display: none !important;
+  }
+
+  /* Mobile menu adjustments */
+  .mobile-menu-custom {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.936);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    z-index: 50;
+  }
+
+}
+
+@media (max-width: 425px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header-icon {
+    font-size: 1rem !important;
+  }
+
+  .header-text {
+    font-size: 0.65rem !important;
+    line-height: 0.9rem !important;
+  }
+
+  .header-nowrap {
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
+}
+
+/* Tablet large / small desktop: 769px → 1024px → single line flex row */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header-container {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 1rem !important;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .header-icon {
+    font-size: 1.1rem !important;
+  }
+
+  .header-text {
+    font-size: 0.875rem !important;
+    line-height: normal !important;
+  }
+
+  .header-nowrap {
+    white-space: nowrap !important;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .header-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0.5rem;
+    align-items: start;
+  }
+
+  .header-icon {
+    font-size: 1.2rem !important;
+  }
+
+  .header-text {
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+  }
+
+  .header-nowrap {
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
+}
+
+
+
+@media (min-width: 1025px){
+  .header-container {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 2rem !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-icon {
+    font-size: 2xl !important;
+  }
+
+  .header-text {
+    font-size: 0.875rem !important; 
+    line-height: normal !important;
+  }
+
+  .header-nowrap {
+    white-space: nowrap !important;
+  }
+}
+/* ✅ Pure CSS animations for sliding only */
+.slide-left {
+  animation: slideLeft 0.5s ease forwards;
+}
+
+.slide-right {
+  animation: slideRight 0.5s ease forwards;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-440px); /* width + gap */
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(440px);
+  }
+}
