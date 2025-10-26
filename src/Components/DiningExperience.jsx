@@ -1,4 +1,3 @@
-// src/components/DiningExperience.jsx
 import React from "react";
 
 const sections = [
@@ -6,29 +5,26 @@ const sections = [
     title: "Food",
     description:
       "Bavette was born from a passion for bringing the finest cuts of beef to the table, with a commitment to sustainability and premium quality. Every dish is a labor of love, crafted by our chefs to suit all tastes.",
-    image:
-      "/src/assets/food.png",
+    image: `${import.meta.env.BASE_URL}assets/food.png`,
     textPosition: "left",
   },
   {
     title: "Drinks",
     description:
       "Bavette was born from a passion for bringing the finest cuts of beef to the table, with a commitment to sustainability and premium quality. Every dish is a labor of love, crafted by our team of experts.",
-    image:
-      "/src/assets/drinks.png",
+    image: `${import.meta.env.BASE_URL}assets/drinks.png`,
     textPosition: "left",
   },
   {
     title: "Atmosphere",
     description:
       "Bavette was born from a passion for bringing the finest cuts of beef to the table, with a commitment to sustainability and premium quality. Every dish is a labor of love, crafted by our dedicated team.",
-    image:
-      "/src/assets/Atmosphere.png",
+    image: `${import.meta.env.BASE_URL}assets/Atmosphere.png`,
     textPosition: "left",
   },
 ];
 
-const DiningExperience= ()=> {
+const DiningExperience = () => {
   return (
     <section className="bg-black text-white py-20 px-6">
       {/* Header */}
@@ -48,13 +44,10 @@ const DiningExperience= ()=> {
       {/* Sections */}
       <div className="flex flex-col gap-8 max-w-3xl mx-auto">
         {sections.map((item, index) => (
-          <div
-            key={index}
-            className="relative overflow-hidden shadow-lg"
-          >
+          <div key={index} className="relative overflow-hidden shadow-lg">
             {/* Background Image */}
             <img
-              src={item.image}
+              src={item.image} // ✅ use imported variable
               alt={item.title}
               className="w-full h-64 md:h-96 lg:h-[500px] object-cover transition-transform duration-700 transform hover:scale-105"
             />
@@ -81,5 +74,6 @@ const DiningExperience= ()=> {
       </div>
     </section>
   );
-}
+};
+
 export default DiningExperience;

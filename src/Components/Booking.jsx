@@ -7,7 +7,7 @@ const Booking = () => {
       <div className="relative overflow-hidden ">
         {/* Background Image */}
         <img
-          src="/src/assets/backgroundImage.png"
+          src={`${import.meta.env.BASE_URL}assets/backgroundImage.png`}
           alt="image"
           className="w-full h-64 sm:h-80 md:h-[400px] lg:h-[550px] object-cover transition-transform duration-700 transform hover:scale-105"
         />

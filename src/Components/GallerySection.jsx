@@ -2,14 +2,14 @@ import React from "react";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 
 const images = [
-  "/src/assets/pic1.png",
-  "/src/assets/pic2.png",
-  "/src/assets/baklava.png",
-  "/src/assets/Kebab Platter.png",
-  "/src/assets/Meze platter.png",
-  "/src/assets/pic3.png",
-  "/src/assets/pic4.png",
-  "/src/assets/pic5.png",
+  `${import.meta.env.BASE_URL}assets/pic1.png`,
+  `${import.meta.env.BASE_URL}assets/pic2.png`,
+  `${import.meta.env.BASE_URL}assets/baklava.png`,
+  `${import.meta.env.BASE_URL}assets/Kebab Platter.png`,
+  `${import.meta.env.BASE_URL}assets/Meze platter.png`,
+  `${import.meta.env.BASE_URL}assets/pic3.png`,
+  `${import.meta.env.BASE_URL}assets/pic4.png`,
+  `${import.meta.env.BASE_URL}assets/pic5.png`,
 ];
 
 const GallerySection = () => {

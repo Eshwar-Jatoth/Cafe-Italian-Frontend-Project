@@ -6,7 +6,7 @@ export default function ContactSection() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/src/assets/bg-contact.png"
+          src={`${import.meta.env.BASE_URL}assets/bg-contact.png`}
           alt="background"
           className="w-full h-full object-cover opacity-70"
         />

@@ -12,7 +12,7 @@ const Home = () => {
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover brightness-60"
-        src="/src/assets/5792372_Coll_wavebreak_Waiter_1920x1080.mp4"
+        src={`${import.meta.env.BASE_URL}assets/5792372_Coll_wavebreak_Waiter_1920x1080.mp4`}
         autoPlay
         loop
         muted
@@ -38,7 +38,7 @@ const Home = () => {
           {/* Centered Logo */}
           <div className="absolute left-1/2 transform -translate-x-1/2 z-20 pointer-events-none logo-center">
             <img
-              src="/src/assets/logo.png"
+              src={`${import.meta.env.BASE_URL}assets/logo.png`}
               alt="logo"
               className="h-full"
             />

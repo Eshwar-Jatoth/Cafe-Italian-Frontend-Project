@@ -6,4 +6,9 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: '/Cafe-Italian-Frontend-Project/',
   plugins: [react(),tailwindcss()],
+  resolve: {
+    alias: {
+      '@assets': '/src/assets'
+    }
+  }
 })
