@@ -1,34 +1,37 @@
 import React, { useState, useEffect } from "react";
 import { FaStar, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
+import person1 from "../assets/person1.jpg"
+import person2 from "../assets/person2.jpg"
+import person3 from "../assets/person3.jpg";
 const reviews = [
   {
     name: "Anna Mathew",
     time: "one day ago",
     review:
       "Bavette delivers an unforgettable steak experience! The food, service, and ambiance are second to none. We will definitely be coming back! We booked private dining for our.",
-    avatar: "../assets/person3.jpg",
+    avatar: person3,
   },
   {
     name: "Gerrin Tom",
     time: "one day ago",
     review:
       "We booked private dining for our anniversary, and everything was perfect. The steak was melt-in-your-mouth delicious, and the staff was amazing!",
-    avatar: "../assets/person2.jpg",
+    avatar: person2,
   },
   {
     name: "Mery Elza",
     time: "one day ago",
     review:
       "Best steak I’ve ever had! The quality of the meat was outstanding, and the truffle fries were to die for. Highly recommend!",
-    avatar: "../assets/person1.jpg",
+    avatar: person1,
   },
   {
     name: "John Parker",
     time: "two days ago",
     review:
       "Amazing food and cozy atmosphere! Everything tasted fresh, and the service was so friendly. Will definitely come again.",
-    avatar: "../assets/person2.jpg",
+    avatar: person2,
   },
 ];
 

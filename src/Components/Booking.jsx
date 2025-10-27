@@ -1,13 +1,15 @@
 import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
+import bg_img from "../assets/backgroundImage.png"
+
 const Booking = () => {
   return (
     <div className="w-full bg-black px-4 md:px-10 py-10">
       <div className="relative overflow-hidden ">
         {/* Background Image */}
         <img
-          src="../assets/backgroundImage.png"
+          src={bg_img}
           alt="image"
           className="w-full h-64 sm:h-80 md:h-[400px] lg:h-[550px] object-cover transition-transform duration-700 transform hover:scale-105"
         />

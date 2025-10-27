@@ -3,6 +3,8 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import { NavLink } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 
+import backgroundVideo from "../assets/5792372_Coll_wavebreak_Waiter_1920x1080.mp4";
+import logo from "../assets/logo.png";
 const Home = () => {
   const [navOpen, setNavOpen] = useState(false);
   const navItems = ["home", "menu", "about", "contact"];
@@ -12,7 +14,7 @@ const Home = () => {
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover brightness-60"
-        src="../assets/5792372_Coll_wavebreak_Waiter_1920x1080.mp4"
+        src={backgroundVideo}
         autoPlay
         loop
         muted
@@ -38,7 +40,7 @@ const Home = () => {
           {/* Centered Logo */}
           <div className="absolute left-1/2 transform -translate-x-1/2 z-20 pointer-events-none logo-center">
             <img
-              src="../assets/logo.png"
+              src={logo}
               alt="logo"
               className="h-full"
             />

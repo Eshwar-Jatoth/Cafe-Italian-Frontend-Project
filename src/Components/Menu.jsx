@@ -1,21 +1,21 @@
 import React from 'react'
 
+import image1 from "../assets/italianDish.jpg";
+import image2 from "../assets/pastry.png";
+import image3 from "../assets/coffee.png";
 const menuItems = [
     //we can get the data from the backend as well and we can traverse them and load them
   {
     title: "Italian dishes",
-    image:
-      "../assets/italianDish.jpg",
+    image: image1,
   },
   {
     title: "Pastry",
-    image:
-      "../assets/pastry.png",
+    image: image2,
   },
   {
     title: "Coffee",
-    image:
-      "../assets/coffee.png",
+    image: image3,
   },
 ];
 

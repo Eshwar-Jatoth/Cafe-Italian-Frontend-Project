@@ -1,15 +1,24 @@
 import React from "react";
 import { BiLogoInstagramAlt } from "react-icons/bi";
 
+import gallery1 from "../assets/pic1.png";
+import gallery2 from "../assets/pic2.png";
+import gallery3 from "../assets/baklava.png";
+import gallery4 from "../assets/Kebab Platter.png";
+import gallery5 from "../assets/Meze platter.png";
+import gallery6 from "../assets/pic3.png";
+import gallery7 from "../assets/pic4.png";
+import gallery8 from "../assets/pic5.png"
+
 const images = [
-  "../assets/pic1.png",
-  "../assets/pic2.png",
-  "../assets/baklava.png",
-  "../assets/Kebab Platter.png",
-  "../assets/Meze platter.png",
-  "../assets/pic3.png",
-  "../assets/pic4.png",
-  "../assets/pic5.png",
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4,
+  gallery5,
+  gallery6,
+  gallery7,
+  gallery8,
 ];
 
 const GallerySection = () => {
