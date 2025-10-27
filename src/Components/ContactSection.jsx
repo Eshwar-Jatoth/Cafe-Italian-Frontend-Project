@@ -1,6 +1,6 @@
 import React from "react";
 
-import contac from "../assets/bg-contact.png";
+import contac from "/public/assets/bg-contact.png";
 export default function ContactSection() {
   return (
     <section className="relative text-white flex flex-col items-center justify-center py-24 px-6 font-montserrat overflow-hidden">

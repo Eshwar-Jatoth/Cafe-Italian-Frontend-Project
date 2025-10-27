@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { FaStar, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-import person1 from "../assets/person1.jpg";
-import person2 from "../assets/person2.jpg";
-import person3 from "../assets/person3.jpg";
+import person1 from "/public/assets/person1.jpg";
+import person2 from "/public/assets/person2.jpg";
+import person3 from "/public/assets/person3.jpg";
 const reviews = [
   {
     name: "Anna Mathew",

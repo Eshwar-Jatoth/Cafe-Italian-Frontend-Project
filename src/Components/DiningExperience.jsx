@@ -1,9 +1,9 @@
 import React from "react";
 
 // ✅ Import assets
-import foodImage from "../assets/food.png";
-import drinksImage from "../assets/drinks.png";
-import atmosphereImage from "../assets/Atmosphere.png";
+import foodImage from "/public/assets/food.png";
+import drinksImage from "/public/assets/drinks.png";
+import atmosphereImage from "/public/assets/Atmosphere.png";
 
 const sections = [
   {

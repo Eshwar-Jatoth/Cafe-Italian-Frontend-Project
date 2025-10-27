@@ -1,9 +1,9 @@
 import React from "react";
 
-import kebadPlater_food from "../assets/Kebab Platter.png";
-import mezeplatter_food from "../assets/Meze platter.png";
-import baklava_food from "../assets/baklava.png";
-import adanakebab_food from "../assets/AdanaKebab.png";
+import kebadPlater_food from "/public/assets/Kebab Platter.png";
+import mezeplatter_food from "/public/assets/Meze platter.png";
+import baklava_food from "/public/assets/baklava.png";
+import adanakebab_food from "/public/assets/AdanaKebab.png";
 const highlights = [
   {
     title: "Adana Kebab",

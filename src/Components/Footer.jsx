@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaInstagram, FaTripadvisor, FaGoogle, FaFacebookF } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
-import logo_footer from "../assets/logo.png";
+import logo_footer from "/public/assets/logo.png";
 
 export default function Footer() {
   const [navOpen, setNavOpen] = useState(false);

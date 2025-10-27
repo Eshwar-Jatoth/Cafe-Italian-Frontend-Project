@@ -3,8 +3,8 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import { NavLink } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 
-import backgroundVideoURL from "../assets/5792372_Coll_wavebreak_Waiter_1920x1080.mp4";
-import logoHome from "../assets/logo.png";
+import backgroundVideoURL from "/public/assets/5792372_Coll_wavebreak_Waiter_1920x1080.mp4";
+import logoHome from "/public/assets/logo.png";
 const Home = () => {
   const [navOpen, setNavOpen] = useState(false);
   const navItems = ["home", "menu", "about", "contact"];

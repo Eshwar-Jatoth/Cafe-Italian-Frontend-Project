@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-import Spc_photo1 from "../assets/Photo1.png";
-import Spc_photo2 from "../assets/photo2.png";
-import Spc_photo3 from "../assets/photo3.png";
+import Spc_photo1 from "/public/assets/Photo1.png";
+import Spc_photo2 from "/public/assets/photo2.png";
+import Spc_photo3 from "/public/assets/photo3.png";
 
 const Specials = () => {
   const specials = [
