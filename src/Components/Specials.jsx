@@ -3,9 +3,9 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const Specials = () => {
   const specials = [
-    { id: 1, name: "Classic Ribeye Steak", price: "€30", image: `${import.meta.env.BASE_URL}assets/Photo1.png` },
-    { id: 2, name: "Grilled Striploin Steak", price: "€28", image: `${import.meta.env.BASE_URL}assets/photo2.png` },
-    { id: 3, name: "Herb Butter Sirloin", price: "€32", image: `${import.meta.env.BASE_URL}assets/photo3.png` },
+    { id: 1, name: "Classic Ribeye Steak", price: "€30", image: "../assets/Photo1.png" },
+    { id: 2, name: "Grilled Striploin Steak", price: "€28", image: "../assets/photo2.png" },
+    { id: 3, name: "Herb Butter Sirloin", price: "€32", image: "../assets/photo3.png" },
   ];
 
   const [current, setCurrent] = useState(0);

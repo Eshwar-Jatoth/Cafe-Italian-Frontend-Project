@@ -1,25 +1,30 @@
 import React from "react";
 
+// ✅ Import assets
+import foodImage from "../assets/food.png";
+import drinksImage from "../assets/drinks.png";
+import atmosphereImage from "../assets/Atmosphere.png";
+
 const sections = [
   {
     title: "Food",
     description:
       "Bavette was born from a passion for bringing the finest cuts of beef to the table, with a commitment to sustainability and premium quality. Every dish is a labor of love, crafted by our chefs to suit all tastes.",
-    image: `${import.meta.env.BASE_URL}assets/food.png`,
+    image: foodImage,
     textPosition: "left",
   },
   {
     title: "Drinks",
     description:
       "Bavette was born from a passion for bringing the finest cuts of beef to the table, with a commitment to sustainability and premium quality. Every dish is a labor of love, crafted by our team of experts.",
-    image: `${import.meta.env.BASE_URL}assets/drinks.png`,
+    image: drinksImage,
     textPosition: "left",
   },
   {
     title: "Atmosphere",
     description:
       "Bavette was born from a passion for bringing the finest cuts of beef to the table, with a commitment to sustainability and premium quality. Every dish is a labor of love, crafted by our dedicated team.",
-    image: `${import.meta.env.BASE_URL}assets/Atmosphere.png`,
+    image: atmosphereImage,
     textPosition: "left",
   },
 ];

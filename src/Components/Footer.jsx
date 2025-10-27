@@ -11,7 +11,7 @@ export default function Footer() {
       {/* Logo */}
       <div className="text-center">
         <img
-          src={`${import.meta.env.BASE_URL}assets/logo.png`}
+          src="../assets/logo.png"
           alt="logo"
           className="h-[50%]"
         />

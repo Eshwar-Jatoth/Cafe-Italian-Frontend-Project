@@ -4,22 +4,22 @@ const highlights = [
   {
     title: "Adana Kebab",
     price: "€ 120",
-    image: `${import.meta.env.BASE_URL}assets/Kebab Platter.png`,
+    image: "../assets/Kebab Platter.png",
   },
   {
     title: "Meze Platter",
     price: "€ 120",
-    image: `${import.meta.env.BASE_URL}assets/Meze platter.png`,
+    image: "../assets/Meze platter.png",
   },
   {
     title: "Baklava",
     price: "€ 120",
-    image: `${import.meta.env.BASE_URL}assets/baklava.png`,
+    image: "../assets/baklava.png",
   },
   {
     title: "Kebab Platter",
     price: "€ 120",
-    image: `${import.meta.env.BASE_URL}assets/AdanaKebab.png`,
+    image: "../assets/AdanaKebab.png",
   },
 ];
 

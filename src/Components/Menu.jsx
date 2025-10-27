@@ -5,17 +5,17 @@ const menuItems = [
   {
     title: "Italian dishes",
     image:
-      `${import.meta.env.BASE_URL}assets/italianDish.jpg`,
+      "../assets/italianDish.jpg",
   },
   {
     title: "Pastry",
     image:
-      `${import.meta.env.BASE_URL}assets/pastry.png`,
+      "../assets/pastry.png",
   },
   {
     title: "Coffee",
     image:
-      `${import.meta.env.BASE_URL}assets/coffee.png`,
+      "../assets/coffee.png",
   },
 ];
 

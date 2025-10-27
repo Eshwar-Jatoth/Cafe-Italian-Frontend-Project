@@ -7,28 +7,28 @@ const reviews = [
     time: "one day ago",
     review:
       "Bavette delivers an unforgettable steak experience! The food, service, and ambiance are second to none. We will definitely be coming back! We booked private dining for our.",
-    avatar: `${import.meta.env.BASE_URL}assets/person3.jpg`,
+    avatar: "../assets/person3.jpg",
   },
   {
     name: "Gerrin Tom",
     time: "one day ago",
     review:
       "We booked private dining for our anniversary, and everything was perfect. The steak was melt-in-your-mouth delicious, and the staff was amazing!",
-    avatar: `${import.meta.env.BASE_URL}assets/person2.jpg`,
+    avatar: "../assets/person2.jpg",
   },
   {
     name: "Mery Elza",
     time: "one day ago",
     review:
-      "Best steak I've ever had! The quality of the meat was outstanding, and the truffle fries were to die for. Highly recommend!",
-    avatar: `${import.meta.env.BASE_URL}assets/person1.jpg`,
+      "Best steak I’ve ever had! The quality of the meat was outstanding, and the truffle fries were to die for. Highly recommend!",
+    avatar: "../assets/person1.jpg",
   },
   {
     name: "John Parker",
     time: "two days ago",
     review:
       "Amazing food and cozy atmosphere! Everything tasted fresh, and the service was so friendly. Will definitely come again.",
-    avatar: `${import.meta.env.BASE_URL}assets/person2.jpg`,
+    avatar: "../assets/person2.jpg",
   },
 ];
 
