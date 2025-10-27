@@ -1,12 +1,13 @@
 import React from "react";
 
+import contac from "../assets/bg-contact.png";
 export default function ContactSection() {
   return (
     <section className="relative text-white flex flex-col items-center justify-center py-24 px-6 font-montserrat overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="../assets/bg-contact.png"
+          src={contac}
           alt="background"
           className="w-full h-full object-cover opacity-70"
         />

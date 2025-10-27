@@ -1,7 +1,7 @@
 import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
-import bg_img from "../assets/backgroundImage.png"
+import bg_img from "../assets/backgroundImage.png";
 
 const Booking = () => {
   return (

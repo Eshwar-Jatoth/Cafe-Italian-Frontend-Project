@@ -1,29 +1,29 @@
 import React from "react";
 
-import kebadPlater from "../assets/Kebab Platter.png";
-import mezeplatter from "../assets/Meze platter.png";
-import baklava from "../assets/baklava.png";
-import adanakebab from "../assets/AdanaKebab.png";
+import kebadPlater_food from "../assets/Kebab Platter.png";
+import mezeplatter_food from "../assets/Meze platter.png";
+import baklava_food from "../assets/baklava.png";
+import adanakebab_food from "../assets/AdanaKebab.png";
 const highlights = [
   {
     title: "Adana Kebab",
     price: "€ 120",
-    image: kebadPlater,
+    image: kebadPlater_food,
   },
   {
     title: "Meze Platter",
     price: "€ 120",
-    image: mezeplatter,
+    image: mezeplatter_food,
   },
   {
     title: "Baklava",
     price: "€ 120",
-    image: baklava,
+    image: baklava_food,
   },
   {
     title: "Kebab Platter",
     price: "€ 120",
-    image: adanakebab,
+    image: adanakebab_food,
   },
 ];
 

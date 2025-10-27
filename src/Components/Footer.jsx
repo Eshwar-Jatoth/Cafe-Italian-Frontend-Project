@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaInstagram, FaTripadvisor, FaGoogle, FaFacebookF } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
-import logo from "../assets/logo.png";
+import logo_footer from "../assets/logo.png";
 
 export default function Footer() {
   const [navOpen, setNavOpen] = useState(false);
@@ -13,7 +13,7 @@ export default function Footer() {
       {/* Logo */}
       <div className="text-center">
         <img
-          src={logo}
+          src={logo_footer}
           alt="logo"
           className="h-[50%]"
         />

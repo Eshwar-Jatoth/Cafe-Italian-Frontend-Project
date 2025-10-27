@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-import photo1 from "../assets/Photo1.png";
-import photo2 from "../assets/photo2.png";
-import photo3 from "../assets/photo3.png";
+import Spc_photo1 from "../assets/Photo1.png";
+import Spc_photo2 from "../assets/photo2.png";
+import Spc_photo3 from "../assets/photo3.png";
 
 const Specials = () => {
   const specials = [
-    { id: 1, name: "Classic Ribeye Steak", price: "€30", image: photo1 },
-    { id: 2, name: "Grilled Striploin Steak", price: "€28", image: photo2  },
-    { id: 3, name: "Herb Butter Sirloin", price: "€32", image: photo3 },
+    { id: 1, name: "Classic Ribeye Steak", price: "€30", image: Spc_photo1 },
+    { id: 2, name: "Grilled Striploin Steak", price: "€28", image: Spc_photo2  },
+    { id: 3, name: "Herb Butter Sirloin", price: "€32", image: Spc_photo3 },
   ];
 
   const [current, setCurrent] = useState(0);
