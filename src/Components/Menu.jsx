@@ -3,6 +3,7 @@ import React from 'react'
 import food_image1 from "/public/assets/italianDish.jpg";
 import food_image2 from "/public/assets/pastry.png";
 import food_image3 from "/public/assets/coffee.png";
+import food_image4 from "/public/assets/coffee.png";
 const menuItems = [
     //we can get the data from the backend as well and we can traverse them and load them
   {
